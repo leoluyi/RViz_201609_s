@@ -9,8 +9,6 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-# set root dir when rendering
-knitr::opts_knit$set(root.dir = '..')
 knitr::opts_chunk$set(comment = "#>",
                       fig.align='center',
                       collapse = TRUE,
